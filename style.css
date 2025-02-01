@@ -11,3 +11,13 @@
 a{
     text-decoration: underline;
 }
+
+#gobackhome{
+    height: 10px;
+    width: 40px;
+    color: blueviolet;
+}
+
+html {
+    scroll-behavior: smooth;
+  }

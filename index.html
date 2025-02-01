@@ -56,7 +56,7 @@
               <li>
                 <a
                   class="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0"
-                  href="about.html"
+                  href="#about"
                   data-discover="true"
                   >About</a
                 >
@@ -72,7 +72,7 @@
             <li>
             <a
                 class="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0"
-                href="skill.html"
+                href="#skill"
                 data-discover="true"
                 >Skills</a
             >
@@ -99,47 +99,138 @@
       </nav>
     </header>
     
-    <div
-      class="min-h-screen bg-gradient-to-br from-violet-100 to-violet-800 text-white"
-    >
-      <div
-        class="relative z-10 max-w-screen-xl px-4 py-10 sm:py-24 mx-auto sm:px-6 lg:px-8"
-      >
+    
+    <div class="min-h-screen bg-gradient-to-br from-gray-800 to-black text-white">
+      <div class="relative z-10 max-w-screen-xl px-4 py-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
-          <div
-            class="space-y-8 text-center sm:text-left"
-            style="opacity: 1; transform: none"
-          >
-            <h2 class="text-3xl font-bold sm:text-5xl" style="opacity: 1">
-                Hi I am Tejswini Tiwari<span
-                class="block text-orange-500 text-2xl sm:text-3xl font-semibold sm:mt-2"
-                ></span
-              >
+          <div class="space-y-8 text-center sm:text-left">
+            <h2 class="text-3xl font-bold sm:text-5xl">
+              Hi, I am Tejswini Tiwari
+              <span class="block text-orange-500 text-2xl sm:text-3xl font-semibold sm:mt-2"></span>
             </h2>
-            <p class="text-base sm:text-lg text-gray-300" style="opacity: 1">
-              Go check my skills, and experience.
+            <p class="text-base sm:text-lg text-gray-300">
+              <a href="#about" class="text-orange-400 hover:underline">Go check my skills and experience.</a>
             </p>
           </div>
-          <div
-            class="flex justify-center sm:justify-end"
-            style="opacity: 1; transform: none"
-          >
-            <img
+          <div class="flex justify-center sm:justify-end" >
+            <img 
               class="w-48 sm:w-96 rounded-lg shadow-2xl transform transition-transform duration-300 hover:scale-105"
               src="/assets/tejswinipic.jpg"
               alt="portfolio"
             />
           </div>
+          <div id="about"></div>
         </div>
       </div>
-      <h1
-        class="text-center text-2xl sm:text-4xl py-20 font-medium"
-        style="opacity: 1"
-      >
-      </h1>
+    
     </div>
+    
+    
+    
+    <section class="container mx-auto text-center py-12" >
+      <h2 class="text-4xl font-bold text-gray-800 mb-6">About Me</h2>
 
-    <footer class="bg-gray-800 text-white py-8">
+      <!-- Skills Grid -->
+      <div class="grid md:grid-cols-1 sm:grid-cols-3 grid-cols- gap-8">
+        <!-- Skill 1 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+          <div class="text-4xl text-blue-500 mb-4">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800" id="skill">
+            Hey, I am 2nd year student at
+            <a href="https://iips.edu.in/"
+              >International Institute of Professional Studies, DAVV Indore</a
+            >
+            I am currently pursuing Integrated BTech + MTech in Information
+            Technology. I am passionate Problem Solver. My expertise involve Web
+            Development.
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container mx-auto text-center py-12" >
+      <h2 class="text-4xl font-bold text-gray-800 mb-6">My Skills</h2>
+      <p class="text-gray-600 mb-8 max-w-2xl mx-auto">
+          A brief overview of my technical skills and expertise across various areas of web development and design.
+      </p>
+
+      <!-- Skills Grid -->
+      <div class="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-8">
+
+          <!-- Skill 1 -->
+          <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+              <div class="text-4xl text-blue-500 mb-4">
+                  <i class="fab fa-html5"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800">HTML5</h3>
+              <p class="text-gray-600 mt-2">Building responsive, semantic, and accessible websites.</p>
+          </div>
+
+          <!-- Skill 2 -->
+          <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+              <div class="text-4xl text-blue-500 mb-4">
+                  <i class="fab fa-css3-alt"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800">CSS3</h3>
+              <p class="text-gray-600 mt-2">Crafting modern, clean, and visually appealing designs.</p>
+          </div>
+
+          <!-- Skill 3 -->
+          <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+              <div class="text-4xl text-blue-500 mb-4">
+                  <i class="fab fa-js"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800">JavaScript</h3>
+              <p class="text-gray-600 mt-2">Building interactive, dynamic web applications.</p>
+          </div>
+
+          <!-- Skill 4 -->
+          <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+              <div class="text-4xl text-blue-500 mb-4">
+                  <i class="fab fa-react"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800">C++</h3>
+              <p class="text-gray-600 mt-2">Solving Problems(DSA)</p>
+          </div>
+
+          <!-- Skill 5 -->
+          <!-- <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+              <div class="text-4xl text-blue-500 mb-4">
+                  <i class="fab fa-node"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800">Node.js</h3>
+              <p class="text-gray-600 mt-2">Building fast and scalable backend services.</p>
+          </div> -->
+
+          <!-- Skill 6 -->
+          <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+              <div class="text-4xl text-blue-500 mb-4">
+                  <i class="fab fa-git-alt"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800">Git</h3>
+              <p class="text-gray-600 mt-2">Version control for collaborating on projects and tracking changes.</p>
+          </div>
+          
+          <!-- Skill 7
+          <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+              <div class="text-4xl text-blue-500 mb-4">
+                  <i class="fab fa-git-alt"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800">Python</h3>
+              <p class="text-gray-600 mt-2">Exploring Machine Learning Potential using python</p>
+          </div> -->
+
+          
+      </div>
+      
+  </section>
+
+  
+
+    <footer class="bg-gray-800 to-black  py-8">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-between items-center">
             <!-- Left Section: Social Media Links -->
